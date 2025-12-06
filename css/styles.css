@@ -1,0 +1,44 @@
+/* styles.css */
+body {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* or 700 for bold */
+    font-style: italic;
+    font-variation-settings: "wdth" 100;
+    color: white; /* fallback color */
+    text-align: center;
+    padding: 50px;
+}
+
+/* Gradient text effect */
+h1, p, button {
+    background: linear-gradient(90deg, #00f, #ff69b4); /* blue to pink */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Optional: style the button */
+button {
+    border: 2px solid #ff69b4;
+    background: solid #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+#soundOn {
+    position: fixed;      
+    max-width: 2%;
+    cursor: pointer;
+    height: auto;
+    display: block;
+    z-index: 9999; 
+}
+
+
